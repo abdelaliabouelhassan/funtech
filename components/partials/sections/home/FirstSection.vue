@@ -25,7 +25,7 @@ onMounted(() => {
         if(window.innerWidth >= 1144){
         return "top 60%"
         }else{
-        return "top 10%"
+        return "top 40%"
         }
     })(),
 	end: (()=>{
@@ -36,12 +36,12 @@ onMounted(() => {
         }
     })(),
 	//toggleActions:"restart none none reverse",
-	markers:true,
+	markers:false,
     pin:true,
     scrub:1
 }})
 .from("#first-section p", {y:-200,opacity:0, duration:1})
-//.from("#first-section p", {scale:0, duration:1}, "<")
+.from("#first-section p", {scale:0.7, duration:1}, "<")
 .to("#first-section p", {scale:1,opacity:1, duration:1})
 
 
