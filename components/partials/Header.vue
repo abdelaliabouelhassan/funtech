@@ -21,7 +21,7 @@
              <nuxt-link to="/" class="link">
                 Careers
             </nuxt-link>
-            <img src="images/wearehiring.svg" class=" absolute top-5 lg:top-0 w-full h-full lg:-right-16" alt="">
+            <img src="/images/wearehiring.svg" class=" absolute top-5 lg:top-0 w-full h-full lg:-right-16" alt="">
            </div>
         </div>
 
@@ -78,7 +78,7 @@
                             <nuxt-link to="/" class="link">
                                 Careers
                             </nuxt-link>
-                            <img src="images/wearehiring.svg" class=" absolute  top-0 w-full h-full -right-[4.5rem]" alt="">
+                            <img src="/images/wearehiring.svg" class=" absolute  top-0 w-full h-full -right-[4.5rem]" alt="">
                         </div>
                     </li>
 
