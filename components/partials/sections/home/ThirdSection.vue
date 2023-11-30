@@ -33,13 +33,3 @@
 </template>
 
 
-<style scoped>
- .box-shadow {
-    border-radius: 0.625rem;
-    background: #100146;
-    filter: blur(10px);
-    width: 17.6875rem;
-    height: 5.6875rem;
-    flex-shrink: 0;
- }
-</style>

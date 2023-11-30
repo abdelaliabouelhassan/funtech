@@ -1,11 +1,12 @@
 <template>
     <section class=" w-full flex flex-col items-start space-y-4 pt-10 overflow-hidden">
-      <div class=" w-full p-4 max-w-[1305px] mx-auto">
-         <div class=" relative w-full">
-        <div class=" box-shadow absolute top-0 left-0"></div>
-         <button class=" h-[5.6875rem] hover:scale-110 duration-200 bg-white z-10 relative max-w-[17.6875rem] w-full rounded-[0.625rem] flex justify-center items-center space-x-4">
-            <span class=" text-black text-[1.875rem] font-ubuntu text-center font-light">Our Solutions </span>
-            <img src="/images/home/OpenBox.svg" class=" w-full h-full max-w-[2.4375rem] max-h-[2.4375rem]" alt="">
+      <div class=" w-full flex p-4 max-w-[1305px] mx-auto">
+         <div class=" relative w-full m-auto max-w-[11.46769rem] md:max-w-full">
+            
+        <div class=" box-shadow absolute top-0 left-0 md:w-[17.6875rem] md:h-[5.6875rem] h-[3.6875rem] w-[11.46769rem]"></div>
+         <button class=" h-[3.6875rem] md:h-[5.6875rem] hover:scale-110 duration-200 bg-white z-10 relative max-w-[11.46769rem] md:max-w-[17.6875rem] w-full rounded-[0.625rem] flex justify-center items-center space-x-4">
+            <span class=" text-black text-[1.21569rem] md:text-[1.875rem] font-ubuntu text-center font-light">Our Solutions </span>
+            <img src="/images/home/OpenBox.svg" class=" w-full  md:max-w-[2.4375rem] max-w-[1.58038rem] h-[1.58038rem] md:h-[2.4375rem]" alt="">
         </button>
        </div>
       </div>
@@ -44,8 +45,6 @@
     border-radius: 0.625rem;
     background: #100146;
     filter: blur(10px);
-    width: 17.6875rem;
-    height: 5.6875rem;
     flex-shrink: 0;
  }
 </style>
