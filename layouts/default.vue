@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full overflow-hidden">
+    <div class=" w-full overflow-hidden bg-[#F6F2FF]">
         <Header />
         <slot></slot>
         <Footer />

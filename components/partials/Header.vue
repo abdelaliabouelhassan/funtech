@@ -1,5 +1,6 @@
 <template>
-    <header class=" w-full bg-white flex items-center p-4    justify-between max-w-[1409px] mx-auto">
+   <div class=" w-full bg-white">
+     <header class=" w-full flex items-center p-4    justify-between max-w-[1409px] mx-auto">
         <div>
             <nuxt-link to="/">
                 <img src="/images/logo.svg" alt="">
@@ -39,6 +40,7 @@
             </button>
         </div>
     </header>
+   </div>
 
       <aside id="default-sidebar" :class="{'translate-y-0':show,'-translate-y-full rtl:translate-y-full':!show}" class="fixed py-4 f-lg:hidden bg-white top-0 left-0 rtl:right-0 z-40 w-full  transition-transform  " aria-label="Sidebar">
             <div class="h-full  overflow-y-auto   ">
