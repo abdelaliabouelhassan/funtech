@@ -9,6 +9,8 @@
         <SixthSection />
         <SeventhSection />
         <EighthSection />
+        <TenthSection />
+
     </div>
 </template>
 
@@ -23,4 +25,5 @@
  import SixthSection from "~/components/partials/sections/home/SixthSection.vue";
  import SeventhSection from "~/components/partials/sections/home/SeventhSection.vue";
  import EighthSection from "~/components/partials/sections/home/EighthSection.vue";
+ import TenthSection from "~/components/partials/sections/home/TenthSection.vue";
 </script>

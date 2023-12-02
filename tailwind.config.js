@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
-        proximanova: ['Proxima Nova','sans-serif']
+        proximanova: ['Proxima Nova','sans-serif'],
+        roboto: ['Roboto','sans-serif'],
       },
     },
   },
