@@ -37,7 +37,7 @@
                             </nuxt-link>
                             <img src="/images/wearehiring.svg" class=" absolute top-5 lg:top-0 w-full h-full lg:-right-16" alt="">
                         </div>
-                      <nuxt-link to="/">
+                      <nuxt-link to="/contact-us">
                         <span class=" text-[#12026B] font-ubuntu font-light text-[1.125rem]">Contact us</span>
                     </nuxt-link>
                       <nuxt-link to="/">

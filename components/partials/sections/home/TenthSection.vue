@@ -5,7 +5,9 @@
             <h1 class=" text-[5rem] text-[#100146] font-ubuntu text-center font-bold">Ready to build?</h1>
             <div class=" w-full relative justify-center flex pt-4"> 
                     <div class="btn-blur absolute"></div>
-                    <button class="btn btn-shadow-1 relative z-10">Contact us</button>
+                    <nuxt-link to="/contact-us"  class="btn btn-shadow-1 relative z-10" >
+                            <button class="btn">Contact us</button>
+                    </nuxt-link>
              </div>
         </div>
            

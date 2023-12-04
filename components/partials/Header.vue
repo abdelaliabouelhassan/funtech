@@ -28,7 +28,10 @@
 
 
         <div class=" w-full max-w-[12.32556rem] hidden md:block">
-            <button class="btn btn-shadow-1">Contact us</button>
+            <nuxt-link to="/contact-us">
+                 <button class="btn btn-shadow-1">Contact us</button>
+            </nuxt-link>
+           
         </div>
 
         <div class=" md:hidden">
